@@ -6,9 +6,11 @@ import AppRouter from "./AppRouter.jsx";
 
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AppRouter />
+    <SpeedInsights/> 
   </StrictMode>
 );
