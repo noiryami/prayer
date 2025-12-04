@@ -1,0 +1,19 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    margin-top: 30px;
+}
+
+.gridItem{
+    background:#9d2609f4;
+    margin: 10px;
+}
+
+.gridItem:active {
+    background: #9d2609f4;
+    margin: 10px;
+}

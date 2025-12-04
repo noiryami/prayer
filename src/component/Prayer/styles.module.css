@@ -1,0 +1,159 @@
+.prayer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 25px;
+    background: #c0583e75;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    border-bottom: 1px solid #d7d7d74e;
+}
+.prayer_name{
+    width: 100%;
+}
+.prayer_name:hover{
+    background: #a54f3a;
+    cursor: pointer;
+}
+.prayer_time{
+ width: 50%;
+ text-align: left;
+}
+.prayer_time:hover{
+    background: #a54f3a;
+}
+@media (max-width: 400px) {
+    .prayer {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px 12px;
+        margin-bottom: 8px;
+        font-size: clamp(13px, 4.5vw, 16px);
+        min-height: 56px; /* comfortable touch target */
+        box-sizing: border-box;
+    }
+
+    .prayer_name,
+    .prayer_time {
+        width: 100%;
+        text-align: center;
+        padding: 6px 8px;
+        box-sizing: border-box;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .prayer_name {
+        font-weight: 700;
+        font-size: clamp(14px, 5vw, 18px);
+        line-height: 1.1;
+    }
+
+    .prayer_time {
+        font-size: clamp(12px, 3.5vw, 15px);
+        opacity: 0.95;
+    }
+
+    /* Increase hit area for any inline controls/icons inside .prayer */
+    .prayer button,
+    .prayer .icon {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 6px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Allow long words to wrap if necessary (prevents overflow on tiny screens) */
+    .prayer_name span,
+    .prayer_time span {
+        overflow-wrap: anywhere;
+    }
+
+    .prayer_name:hover,
+    .prayer_time:hover {
+        background: #a54f3a;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 500px) {
+    .prayer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 8px 12px;
+        margin-bottom: 8px;
+        background: #c0583e75;
+        color: #fff;
+        font-size: clamp(14px, 4vw, 18px);
+        border-radius: 5px;
+        border-bottom: 1px solid #d7d7d74e;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 48px; /* touch target */
+    }
+
+    .prayer_name,
+    .prayer_time {
+        width: 100%;
+        text-align: center;
+        padding: 4px 0;
+        box-sizing: border-box;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .prayer_name {
+        font-weight: 600;
+        font-size: clamp(15px, 4.5vw, 20px);
+    }
+
+    .prayer_time {
+        font-size: clamp(12px, 3.2vw, 16px);
+        opacity: 0.95;
+    }
+
+    .prayer_name:hover,
+    .prayer_time:hover {
+        background: #a54f3a;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-device-width:950px )     {
+    .prayer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 4px;
+        background: #c0583e75;
+        margin-bottom: 5px;
+        color: #fff;
+        font-size: 2px;
+        border-radius: 5px;
+        border-bottom: 1px solid #d7d7d74e;
+    }
+
+    .prayer p {
+        font-size: 20px;
+    }
+
+    .prayer_name {
+        text-align: center;
+    }
+
+    .prayer_time {
+        text-align: center;
+    }
+}

@@ -1,0 +1,233 @@
+section {
+    background: url("https://static.vecteezy.com/system/resources/previews/006/874/322/non_2x/islamic-background-ramadan-kareem-mosque-silhouette-design-illustration-ramadan-kareem-design-similar-for-greetings-invitations-templates-banners-websites-or-background-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; }
+
+section .container{
+    background-color: #332a224e;
+    width: 650px;
+    padding: 30px 25px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid #d7d7d74e;
+    margin-right: 15%;
+  }
+  section .top_sec{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom : 1px solid #d7d7d74e;
+  }
+  section .top_sec select{
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    background: #a54f3a;
+    padding: 2px 10px;
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  section .top_sec h3{
+    font-size: 26px;
+    color: white;
+  
+  }
+  section .top_sec .date{
+    width: 250px;
+  }
+  section .top_sec .date h4{
+    font-size: 26px;
+    color: white;
+  }
+  @media  (max-width: 400px) {
+    section {
+      background-position: top center;
+      padding-top: 8px;
+    }
+
+    section .container {
+      width: calc(100% - 24px);
+      width: 300px;
+      padding: 12px;
+      margin: 0 12px;
+      box-sizing: border-box;
+    }
+
+    section .top_sec {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 8px;
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid rgba(215,215,215,0.3);
+    }
+
+    section .top_sec select {
+      width: 100%;
+      max-width: 100%;
+      font-size: 14px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      margin-top: 0;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    section .top_sec h3 {
+      font-size: 18px;
+      color: white;
+      margin: 0;
+      text-align: center;
+      line-height: 1.1;
+    }
+
+    section .top_sec .date {
+      width: 100%;
+      text-align: center;
+    }
+
+    section .top_sec .date h4 {
+      font-size: 14px;
+      color: white;
+      margin: 2px;
+    }
+
+    /* compact controls/buttons if present */
+    section .controls,
+    section .buttons {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section button,
+    section .btn {
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 700px) and (min-width: 401px) {
+    section {
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+        padding: 20px 0;
+    }
+
+    section .container {
+      box-sizing: border-box;
+      background-color: #332a224e;
+      width: 350px;
+      padding: 16px;
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      border: 1px solid #d7d7d74e;
+      margin: 0 20px;
+    }
+
+    section .top_sec {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #d7d7d74e;
+    }
+
+    section .top_sec select {
+      width: 100%;
+      border-radius: 6px;
+      outline: none;
+      background: #a54f3a;
+      padding: 8px 12px;
+      color: white;
+      font-size: 16px;
+      margin-top: 0;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    section .top_sec h3 {
+      font-size: 20px;
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+
+    section .top_sec .date {
+      width: 100%;
+      max-width: 320px;
+    }
+
+    section .top_sec .date h4 {
+      font-size: 16px;
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+  }
+    
+  
+  @media (max-width: 950px) and (min-width: 701px) {
+    section {
+        background: url("https://static.vecteezy.com/system/resources/previews/006/874/322/non_2x/islamic-background-ramadan-kareem-mosque-silhouette-design-illustration-ramadan-kareem-design-similar-for-greetings-invitations-templates-banners-websites-or-background-vector.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+      }
+    
+      section .container {
+        background-color: #332a224e;
+        width: 450px;
+        padding: 20px 15px;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border: 1px solid #d7d7d74e;
+        margin:0 auto;
+      } 
+    
+      section .top_sec {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #d7d7d74e;
+      }
+    
+      section .top_sec select {
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+        background: #a54f3a;
+        padding: 0 auto ;
+        color: white;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+    
+      section .top_sec h3 {
+        font-size: 20px;
+        color: white;
+    
+      }
+    
+      section .top_sec .date {
+        width: 50%;
+      }
+    
+      section .top_sec .date h4 {
+        font-size: 20px;
+        color: white; }
+      }

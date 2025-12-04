@@ -1,0 +1,27 @@
+.prayer{
+    margin: 5px;
+    padding: 5px;
+}
+.prayer h3{
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background: #b8680ede;
+    display:inline;
+    border-radius: 5px;
+}
+.prayer h4{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.prayer p{
+    font-size: 18px;
+    margin: 10px 0px;
+    border-bottom: 1px solid black;
+    overflow-wrap: break-word;
+}
+.prayer span{
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,45 @@
+.arkan{
+    padding: 10px;
+    margin:10px;
+    position: relative;
+    min-height: 100vh;
+}
+.arkan h3{
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    background: #b8690ead;
+    display: inline;
+    border-radius: 5px;
+}
+.arkan span{
+    color: red;
+    
+}
+.arkan h4{ 
+    padding: 0px 10px;
+    margin: 15px 5px 5px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.arkan h5{
+    color: red;
+    font-size: 15px;
+}
+.arkan h6{
+    font-size: 20px;
+    color: red;
+}
+.arkan p{
+    padding-bottom: 10px;
+    margin-right: 30px;
+    word-wrap:break-word;
+    font-size: 18px;
+    border-bottom: 2px dotted #b8680ede ;
+}
+
+.btn{
+    position: absolute;
+    left: 40px;
+}
