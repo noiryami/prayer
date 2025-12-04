@@ -1,18 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import AppRouter from './AppRouter.jsx'
+import AppRouter from "./AppRouter.jsx";
 //styles
 
-import './index.css'
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-
-createRoot(document.getElementById('root')).render(
-  
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <AppRouter />
-  ,
-)
-
-
+  </StrictMode>
+);
