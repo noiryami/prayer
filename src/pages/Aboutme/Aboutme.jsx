@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 const { container, header, content, contactSection, contactBox, title, description, buttonGroup, emailBtn } = styles;
 
-const Anoutme = () => {
+const Aboutme = () => {
     const handleEmailClick = () => {
         const email = "mahmedkamel388@gmail.com";
         const subject = encodeURIComponent("Let's Connect");
@@ -36,4 +36,4 @@ const Anoutme = () => {
     )
 }
 
-export default Anoutme
+export default Aboutme

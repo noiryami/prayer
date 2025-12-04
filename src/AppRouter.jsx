@@ -6,7 +6,7 @@ import ArkanLayout from "./Layout/ArkanLayout";
 //pages
 import Home from "./pages/Home/Home";
 import Prayers from "./pages/Prayers/Prayers";
-import Anoutme from "./pages/Aboutme/Anoutme";
+import Aboutme from "./pages/Aboutme/Aboutme";
 import Error from "./pages/Error/Error";
 
 //side pages for prayer
@@ -57,7 +57,7 @@ const router = createBrowserRouter([
       },
       {
         path: "aboutme",
-        element: <Anoutme />,
+        element: <Aboutme />,
       },
     ],
   },
