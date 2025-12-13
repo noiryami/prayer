@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const ArkanLayout = () => {
   return (
-    <div style={{background:"#ffe69c74",direction:"ltr"}}>
+    <div style={{background:"#ffe69c74"}}>
           <Row>
               <Col md={2} >
                   <ListGroup  > 

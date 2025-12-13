@@ -2,6 +2,7 @@ section {
     background: url("https://static.vecteezy.com/system/resources/previews/006/874/322/non_2x/islamic-background-ramadan-kareem-mosque-silhouette-design-illustration-ramadan-kareem-design-similar-for-greetings-invitations-templates-banners-websites-or-background-vector.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center; }
@@ -54,7 +55,7 @@ section .container{
       width: calc(100% - 24px);
       width: 300px;
       padding: 12px;
-      margin: 0 12px;
+      margin: 0 auto;
       box-sizing: border-box;
     }
 
@@ -146,10 +147,10 @@ section .container{
     }
 
     section .top_sec select {
-      width: 100%;
       border-radius: 6px;
       outline: none;
       background: #a54f3a;
+      text-align: center;
       padding: 8px 12px;
       color: white;
       font-size: 16px;
