@@ -46,7 +46,7 @@ const router = createBrowserRouter([
       },
       {
         path: "arkan",
-        element: <ArkanLayout />,
+        element: <ArkanLayout/>,
         children: [
           { index: true, element: <Arkan /> },
           { path: "islam", element: <ArkanIslam /> },

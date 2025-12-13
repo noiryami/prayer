@@ -3,8 +3,8 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const PrayersLayout = () => {
   return (
-    <div style={{background:"#ffe69c74"}}>
-          <Row>
+    <>
+          <Row style={{background:"#ffe69c74", marginLeft:"0px"}}>
               <Col md={2} >
                   <ListGroup  > 
                       <ListGroup.Item as={NavLink} to="" end variant="warning"  >الصلوات</ListGroup.Item>
@@ -15,11 +15,11 @@ const PrayersLayout = () => {
                       <ListGroup.Item as={NavLink} to="isha" variant="warning">العشاء</ListGroup.Item>
                   </ListGroup>
               </Col>
-              <Col style={{direction:"rtl"}}>
+              <Col  >
                   <Outlet />
               </Col>
           </Row>      
-    </div>
+    </>
   )
 }
 

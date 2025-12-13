@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: start ;
 }
 .headerContainar h1{
     font-size: 24px;

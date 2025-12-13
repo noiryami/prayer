@@ -1,7 +1,6 @@
 .arkan{
     padding: 10px;
     margin:10px;
-    position: relative;
     min-height: 100vh;
 }
 .arkan h3{
@@ -38,8 +37,14 @@
     font-size: 18px;
     border-bottom: 2px dotted #b8680ede ;
 }
-
-.btn{
-    position: absolute;
-    left: 40px;
+@media (max-width:700px){
+    .arkan h3{
+        font-size: 20px;
+    }
+    .arkan h4{ 
+        font-size: 18px;
+    }
+    .arkan p{
+        font-size: 16px;
+    }
 }
